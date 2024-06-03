@@ -1,0 +1,9 @@
+file_format: "1"
+id: alphalpha_plus
+name: Alphalpha+
+type: shield
+url: https://github.com/subottimale/alphalpha_plus/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
