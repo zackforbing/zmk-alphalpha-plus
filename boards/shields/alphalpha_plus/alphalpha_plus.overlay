@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -42,5 +50,3 @@
             ;
     };
 };
-
-K302, K303, K304, K305, K306, K307, K308
