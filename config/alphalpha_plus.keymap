@@ -151,7 +151,7 @@
             bindings = <
 &kp Q        &kp W           &kp E           &kp R             &kp T        &kp Y  &kp U            &kp I         &kp O            &kp P
 &hm LCTRL A  &hm LEFT_ALT S  &hm LEFT_GUI D  &hs LEFT_SHIFT F  &kp G        &kp H  &hs RSHFT J      &hm RGUI K    &hm RIGHT_ALT L  &hm RCTRL SQT
-&hs LSHFT Z  &kp X           &kp C           &kp V             &kp B        &kp N  &kp M            &kp COMMA     &kp DOT          &hs RSHFT FSLH
+&hs LSHFT Z  &kp X           &kp C           &kp V             &kp B        &kp N  &kp M            &kp COMMA     &kp DOT          
                                              &lt 4 TAB         &lt 2 SPACE         &lt 4 BACKSPACE  &lt 2 DELETE
             >;
         };
@@ -160,7 +160,7 @@
             bindings = <
 &trans      &trans  &trans       &trans  &trans  &trans  &trans  &trans       &trans  &trans
 &hm LGUI A  &trans  &hm LCTRL D  &trans  &trans  &trans  &trans  &hm RCTRL K  &trans  &hm RGUI SQT
-&trans      &trans  &trans       &trans  &trans  &trans  &trans  &trans       &trans  &trans
+&trans      &trans  &trans       &trans  &trans  &trans  &trans  &trans       &trans
                                  &trans  &trans          &trans  &trans
             >;
         };
@@ -169,7 +169,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4   &kp N5      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp UNDERSCORE  &kp PLUS             &kp TILDE
 &hm LCTRL N6  &hm LEFT_ALT N7  &hm LGUI N8      &hs LSHFT N9   &kp N0      &kp LEFT_BRACKET      &hm RIGHT_SHIFT RIGHT_BRACKET  &hm RGUI MINUS  &hm RIGHT_ALT EQUAL  &hm RCTRL GRAVE
-&kp KP_PLUS   &kp KP_MINUS     &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_DOT  &kp LEFT_BRACE        &kp RIGHT_BRACE                &kp SEMI        &kp COLON            &kp BACKSLASH
+&kp KP_PLUS   &kp KP_MINUS     &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_DOT  &kp LEFT_BRACE        &kp RIGHT_BRACE                &kp SEMI        &kp COLON
                                                 &lt 6 LS(TAB)  &trans                            &lt 6 TAB                      &trans
             >;
         };
@@ -178,7 +178,7 @@
             bindings = <
 &trans             &trans  &trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans
 &hm LGUI NUMBER_6  &trans  &hm LCTRL N8  &trans  &trans  &trans  &trans  &hm RCTRL MINUS  &trans  &hm RGUI GRAVE
-&trans             &trans  &trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans
+&trans             &trans  &trans        &trans  &trans  &trans  &trans  &trans           &trans
                                          &trans  &trans          &trans  &trans
             >;
         };
@@ -187,7 +187,7 @@
             bindings = <
 &mt LEFT_SHIFT PAGE_UP  &kp HOME   &mt LS(LALT) UP_ARROW  &kp END    &kp LS(LA(LC(BACKSLASH)))  &trans      &kp F9        &kp F10      &kp F11          &kp F12
 &mt LALT PAGE_DOWN      &kp LEFT   &kp DOWN               &kp RIGHT  &kp BACKSPACE              &kp DELETE  &hs RSHFT F5  &hm RGUI F6  &hm LEFT_ALT F7  &hm RCTRL F8
-&kp LG(Z)               &kp LG(X)  &kp LG(C)              &kp LG(V)  &kp LS(LG(K))              &trans      &kp F1        &kp F2       &kp F3           &kp F4
+&kp LG(Z)               &kp LG(X)  &kp LG(C)              &kp LG(V)  &kp LS(LG(K))              &kp F1        &kp F2       &kp F3           &kp F4
                                                           &trans     &lt 6 LCTRL                            &trans        &lt 6 TAB
             >;
         };
@@ -196,7 +196,7 @@
             bindings = <
 &trans               &mt LALT HOME  &trans     &mt LALT END  &trans         &trans  &trans  &trans        &trans  &trans
 &hm LCTRL PAGE_DOWN  &trans         &trans     &trans        &trans         &trans  &trans  &hm RCTRL F6  &trans  &hm RGUI F8
-&kp LC(Z)            &kp LC(X)      &kp LC(C)  &kp LC(V)     &kp LS(LC(K))  &trans  &trans  &trans        &trans  &trans
+&kp LC(Z)            &kp LC(X)      &kp LC(C)  &kp LC(V)     &kp LS(LC(K))  &trans  &trans  &trans        &trans
                                                &trans        &trans                 &trans  &trans
             >;
         };
@@ -205,7 +205,7 @@
             bindings = <
 &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &trans       &trans  &trans  &trans  &bt BT_CLR_ALL
 &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans       &trans  &trans  &trans  &trans
-&bt BT_CLR     &trans         &out OUT_TOG   &trans         &sys_reset     &bootloader  &trans  &trans  &trans  &trans
+&bt BT_CLR     &trans         &out OUT_TOG   &trans         &sys_reset     &bootloader  &trans  &trans  &trans
                                              &trans         &trans                      &trans  &trans
             >;
         };
